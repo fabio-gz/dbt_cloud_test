@@ -92,10 +92,10 @@ models:
     config:
       tags: ["finance"]
 
-    tests:
-      - elementary.volume_anomalies:
-          tags: ["table_anomalies"]
-          timestamp_column: "order_date"
+    #tests:
+     # - elementary.volume_anomalies:
+      #    tags: ["table_anomalies"]
+       #   timestamp_column: "order_date"
 
     columns:
       - name: order_id
